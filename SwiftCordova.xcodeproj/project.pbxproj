@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46E0D44A1B1F2A6B00D3EE5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D4491B1F2A6B00D3EE5E /* AppDelegate.swift */; };
+		46E0D44C1B1F2A6B00D3EE5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D44B1B1F2A6B00D3EE5E /* ViewController.swift */; };
+		46E0D44F1B1F2A6B00D3EE5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E0D44D1B1F2A6B00D3EE5E /* Main.storyboard */; };
+		46E0D4511B1F2A6B00D3EE5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E0D4501B1F2A6B00D3EE5E /* Images.xcassets */; };
+		46E0D4541B1F2A6B00D3EE5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46E0D4521B1F2A6B00D3EE5E /* LaunchScreen.xib */; };
+		46E0D4601B1F2A6B00D3EE5E /* SwiftCordovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D45F1B1F2A6B00D3EE5E /* SwiftCordovaTests.swift */; };
+		46E0D46F1B1F2AAE00D3EE5E /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E0D46E1B1F2A9800D3EE5E /* libCordova.a */; };
+		46E0D4771B1F2B2F00D3EE5E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E0D4761B1F2B2F00D3EE5E /* AssetsLibrary.framework */; };
+		46E0D4791B1F2B3B00D3EE5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E0D4781B1F2B3B00D3EE5E /* CoreGraphics.framework */; };
+		46E0D47B1B1F2B4500D3EE5E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E0D47A1B1F2B4500D3EE5E /* MobileCoreServices.framework */; };
+		46E0D47D1B1F2BAE00D3EE5E /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 46E0D47C1B1F2BAE00D3EE5E /* config.xml */; };
+		46E0D47F1B1F2BB900D3EE5E /* www in Resources */ = {isa = PBXBuildFile; fileRef = 46E0D47E1B1F2BB900D3EE5E /* www */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46E0D45A1B1F2A6B00D3EE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E0D43C1B1F2A6B00D3EE5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E0D4431B1F2A6B00D3EE5E;
+			remoteInfo = SwiftCordova;
+		};
+		46E0D46D1B1F2A9800D3EE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E0D4691B1F2A9800D3EE5E /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 68A32D7114102E1C006B237C;
+			remoteInfo = CordovaLib;
+		};
+		46E0D4701B1F2AB200D3EE5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E0D4691B1F2A9800D3EE5E /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46E0D4441B1F2A6B00D3EE5E /* SwiftCordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E0D4481B1F2A6B00D3EE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E0D4491B1F2A6B00D3EE5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46E0D44B1B1F2A6B00D3EE5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46E0D44E1B1F2A6B00D3EE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46E0D4501B1F2A6B00D3EE5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46E0D4531B1F2A6B00D3EE5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46E0D4591B1F2A6B00D3EE5E /* SwiftCordovaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCordovaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E0D45E1B1F2A6B00D3EE5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E0D45F1B1F2A6B00D3EE5E /* SwiftCordovaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCordovaTests.swift; sourceTree = "<group>"; };
+		46E0D4691B1F2A9800D3EE5E /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		46E0D4721B1F2AC500D3EE5E /* SwiftCordova-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftCordova-Bridging-Header.h"; sourceTree = "<group>"; };
+		46E0D4761B1F2B2F00D3EE5E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		46E0D4781B1F2B3B00D3EE5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46E0D47A1B1F2B4500D3EE5E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		46E0D47C1B1F2BAE00D3EE5E /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		46E0D47E1B1F2BB900D3EE5E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E0D4411B1F2A6B00D3EE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E0D47B1B1F2B4500D3EE5E /* MobileCoreServices.framework in Frameworks */,
+				46E0D4791B1F2B3B00D3EE5E /* CoreGraphics.framework in Frameworks */,
+				46E0D4771B1F2B2F00D3EE5E /* AssetsLibrary.framework in Frameworks */,
+				46E0D46F1B1F2AAE00D3EE5E /* libCordova.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E0D4561B1F2A6B00D3EE5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E0D43B1B1F2A6B00D3EE5E = {
+			isa = PBXGroup;
+			children = (
+				46E0D47A1B1F2B4500D3EE5E /* MobileCoreServices.framework */,
+				46E0D4781B1F2B3B00D3EE5E /* CoreGraphics.framework */,
+				46E0D4761B1F2B2F00D3EE5E /* AssetsLibrary.framework */,
+				46E0D4691B1F2A9800D3EE5E /* CordovaLib.xcodeproj */,
+				46E0D4461B1F2A6B00D3EE5E /* SwiftCordova */,
+				46E0D45C1B1F2A6B00D3EE5E /* SwiftCordovaTests */,
+				46E0D4451B1F2A6B00D3EE5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E0D4451B1F2A6B00D3EE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D4441B1F2A6B00D3EE5E /* SwiftCordova.app */,
+				46E0D4591B1F2A6B00D3EE5E /* SwiftCordovaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E0D4461B1F2A6B00D3EE5E /* SwiftCordova */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D47E1B1F2BB900D3EE5E /* www */,
+				46E0D47C1B1F2BAE00D3EE5E /* config.xml */,
+				46E0D4491B1F2A6B00D3EE5E /* AppDelegate.swift */,
+				46E0D44B1B1F2A6B00D3EE5E /* ViewController.swift */,
+				46E0D44D1B1F2A6B00D3EE5E /* Main.storyboard */,
+				46E0D4501B1F2A6B00D3EE5E /* Images.xcassets */,
+				46E0D4521B1F2A6B00D3EE5E /* LaunchScreen.xib */,
+				46E0D4471B1F2A6B00D3EE5E /* Supporting Files */,
+				46E0D4721B1F2AC500D3EE5E /* SwiftCordova-Bridging-Header.h */,
+			);
+			path = SwiftCordova;
+			sourceTree = "<group>";
+		};
+		46E0D4471B1F2A6B00D3EE5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D4481B1F2A6B00D3EE5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46E0D45C1B1F2A6B00D3EE5E /* SwiftCordovaTests */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D45F1B1F2A6B00D3EE5E /* SwiftCordovaTests.swift */,
+				46E0D45D1B1F2A6B00D3EE5E /* Supporting Files */,
+			);
+			path = SwiftCordovaTests;
+			sourceTree = "<group>";
+		};
+		46E0D45D1B1F2A6B00D3EE5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D45E1B1F2A6B00D3EE5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46E0D46A1B1F2A9800D3EE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D46E1B1F2A9800D3EE5E /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46E0D4431B1F2A6B00D3EE5E /* SwiftCordova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E0D4631B1F2A6B00D3EE5E /* Build configuration list for PBXNativeTarget "SwiftCordova" */;
+			buildPhases = (
+				46E0D4401B1F2A6B00D3EE5E /* Sources */,
+				46E0D4411B1F2A6B00D3EE5E /* Frameworks */,
+				46E0D4421B1F2A6B00D3EE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E0D4711B1F2AB200D3EE5E /* PBXTargetDependency */,
+			);
+			name = SwiftCordova;
+			productName = SwiftCordova;
+			productReference = 46E0D4441B1F2A6B00D3EE5E /* SwiftCordova.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46E0D4581B1F2A6B00D3EE5E /* SwiftCordovaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E0D4661B1F2A6B00D3EE5E /* Build configuration list for PBXNativeTarget "SwiftCordovaTests" */;
+			buildPhases = (
+				46E0D4551B1F2A6B00D3EE5E /* Sources */,
+				46E0D4561B1F2A6B00D3EE5E /* Frameworks */,
+				46E0D4571B1F2A6B00D3EE5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E0D45B1B1F2A6B00D3EE5E /* PBXTargetDependency */,
+			);
+			name = SwiftCordovaTests;
+			productName = SwiftCordovaTests;
+			productReference = 46E0D4591B1F2A6B00D3EE5E /* SwiftCordovaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E0D43C1B1F2A6B00D3EE5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "http://www.leqicheng.com";
+				TargetAttributes = {
+					46E0D4431B1F2A6B00D3EE5E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					46E0D4581B1F2A6B00D3EE5E = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 46E0D4431B1F2A6B00D3EE5E;
+					};
+				};
+			};
+			buildConfigurationList = 46E0D43F1B1F2A6B00D3EE5E /* Build configuration list for PBXProject "SwiftCordova" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46E0D43B1B1F2A6B00D3EE5E;
+			productRefGroup = 46E0D4451B1F2A6B00D3EE5E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 46E0D46A1B1F2A9800D3EE5E /* Products */;
+					ProjectRef = 46E0D4691B1F2A9800D3EE5E /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				46E0D4431B1F2A6B00D3EE5E /* SwiftCordova */,
+				46E0D4581B1F2A6B00D3EE5E /* SwiftCordovaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		46E0D46E1B1F2A9800D3EE5E /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 46E0D46D1B1F2A9800D3EE5E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46E0D4421B1F2A6B00D3EE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E0D44F1B1F2A6B00D3EE5E /* Main.storyboard in Resources */,
+				46E0D4541B1F2A6B00D3EE5E /* LaunchScreen.xib in Resources */,
+				46E0D4511B1F2A6B00D3EE5E /* Images.xcassets in Resources */,
+				46E0D47F1B1F2BB900D3EE5E /* www in Resources */,
+				46E0D47D1B1F2BAE00D3EE5E /* config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E0D4571B1F2A6B00D3EE5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E0D4401B1F2A6B00D3EE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E0D44C1B1F2A6B00D3EE5E /* ViewController.swift in Sources */,
+				46E0D44A1B1F2A6B00D3EE5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E0D4551B1F2A6B00D3EE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E0D4601B1F2A6B00D3EE5E /* SwiftCordovaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46E0D45B1B1F2A6B00D3EE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E0D4431B1F2A6B00D3EE5E /* SwiftCordova */;
+			targetProxy = 46E0D45A1B1F2A6B00D3EE5E /* PBXContainerItemProxy */;
+		};
+		46E0D4711B1F2AB200D3EE5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 46E0D4701B1F2AB200D3EE5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46E0D44D1B1F2A6B00D3EE5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E0D44E1B1F2A6B00D3EE5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46E0D4521B1F2A6B00D3EE5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E0D4531B1F2A6B00D3EE5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46E0D4611B1F2A6B00D3EE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46E0D4621B1F2A6B00D3EE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46E0D4641B1F2A6B00D3EE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftCordova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCordova/SwiftCordova-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46E0D4651B1F2A6B00D3EE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = SwiftCordova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftCordova/SwiftCordova-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		46E0D4671B1F2A6B00D3EE5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCordovaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCordova.app/SwiftCordova";
+			};
+			name = Debug;
+		};
+		46E0D4681B1F2A6B00D3EE5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftCordovaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftCordova.app/SwiftCordova";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E0D43F1B1F2A6B00D3EE5E /* Build configuration list for PBXProject "SwiftCordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E0D4611B1F2A6B00D3EE5E /* Debug */,
+				46E0D4621B1F2A6B00D3EE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E0D4631B1F2A6B00D3EE5E /* Build configuration list for PBXNativeTarget "SwiftCordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E0D4641B1F2A6B00D3EE5E /* Debug */,
+				46E0D4651B1F2A6B00D3EE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46E0D4661B1F2A6B00D3EE5E /* Build configuration list for PBXNativeTarget "SwiftCordovaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E0D4671B1F2A6B00D3EE5E /* Debug */,
+				46E0D4681B1F2A6B00D3EE5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E0D43C1B1F2A6B00D3EE5E /* Project object */;
+}
